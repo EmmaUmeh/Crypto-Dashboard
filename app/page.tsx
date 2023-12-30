@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex flex-col lg:pl-[230px] justify-between lg:pt-7 lg:p-32">
+    <main className="lg:pl-[220px] flex justify-center items-center lg:pt-7 lg:p-32">
           <Dashboard />
     </main>
   )

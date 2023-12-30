@@ -18,43 +18,50 @@ const SideNav: React.FC = () => {
                     </Link>
                 </div>
 
-                <div>
+                <div className="">
                     <ul >
-                        <li className="mb-10 relative cursor-pointer">
-                        <div className="absolute pt-8 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
-                            DASHBOARD
-                        </div>
-                            <LuLayoutDashboard color="#FFF" size="30"/>
-                        </li>
+                       <Link href={"/"}>
+                            <li className="mb-10 relative cursor-pointer">
+                                <div className="absolute pt-8 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
+                                    DASHBOARD
+                                </div>
+                                    <LuLayoutDashboard color="#FFF" size="30"/>
+                                </li>
+                       </Link>
 
                         
-                        <li className="mb-10 relative cursor-pointer">
-                        <div className="text-nowrap absolute pt-8 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
-                            BUY ICO
-                        </div>
+                       <Link href={""}>
+                            <li className="mb-10 relative cursor-pointer">
+                                <div className="text-nowrap absolute pt-8 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
+                                    BUY ICO
+                                </div>
 
-                             <RiStackLine  color="#FFF" size="30"/>
-                            
-                        </li>
+                                    <RiStackLine  color="#FFF" size="30"/>
+                                    
+                                </li>
+                       </Link>
 
-                        <li className="mb-10 relative cursor-pointer">
-                        <div className="text-nowrap absolute pt-8 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
-                            WALLET
-                        </div>
+                       <Link href={""}>
+                            <li className="mb-10 relative cursor-pointer">
+                                <div className="text-nowrap absolute pt-8 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
+                                    WALLET
+                                </div>
 
-                             <SlWallet color="#FFF" size="30"/>
-                            
-                        </li>
+                                    <SlWallet color="#FFF" size="30"/>
+                                    
+                                </li>
+                       </Link>
 
+                        <Link href={""}>
+                                <li className="mb-10 relative cursor-pointer">
+                                <div className="text-nowrap absolute pt-8 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
+                                    TRANSACTION
+                                </div>
 
-                        <li className="mb-10 relative cursor-pointer">
-                        <div className="text-nowrap absolute pt-8 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
-                            TRANSACTION
-                        </div>
-
-                             <BiTransfer color="#FFF" size="30"/>
-                            
-                        </li>
+                                    <BiTransfer color="#FFF" size="30"/>
+                                    
+                                </li>
+                        </Link>
 
 
                         <li className="mb-10 relative cursor-pointer">

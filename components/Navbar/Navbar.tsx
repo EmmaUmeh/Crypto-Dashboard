@@ -12,8 +12,8 @@ import { PiWalletLight } from "react-icons/pi";
 const Navbar: React.FC = () => {
     return (
         <>
-           <div className="flex justify-center">
-           <nav className="lg:mt-3 flex justify-between items-center shadow-sm py-4 relative lg:left-20 rounded-md px-7 bg-[#FFF] lg:w-10/12">
+           <div className="flex justify-center p-5">
+           <nav className="lg:mt-3 mt-3 w-full grid grid-cols-2 items-center shadow-sm py-4 relative lg:left-10 rounded-md px-7 bg-[#FFF] lg:w-10/12">
                 <div className="flex items-center gap-5">
                 <span className="gap-20"><SlMenu size="20px" color="#697A8D"/></span>
                     <label className="relative block">
@@ -25,37 +25,39 @@ const Navbar: React.FC = () => {
                     </label>
                 </div>
 
-                <ul className="flex items-center gap-6">
-                    <li>
-                    <Image
-                            src={Flag}
-                            height={"20"}
-                            width={"20"}
-                            alt="Avatar Image"
-                            className=""
-                        />
-                    </li>
-                    <li>
-                    <IoMdNotificationsOutline size="28px" color="#697A8D"/>
-                    </li>
+              
+                    <ul className="flex items-center gap-6 z-50 grid-cols-4 justify-self-end">
+                            <li>
+                            <Image
+                                    src={Flag}
+                                    height={"20"}
+                                    width={"20"}
+                                    alt="Avatar Image"
+                                    className=""
+                                />
+                            </li>
+                            <li>
+                            <IoMdNotificationsOutline size="28px" color="#697A8D"/>
+                            </li>
 
 
-                    <li>
-                        <PiWalletLight size="28px" color="#697A8D"/>
-                    </li>
+                            <li>
+                                <PiWalletLight size="28px" color="#697A8D"/>
+                            </li>
 
-                   
+                        
 
-                    <li>
-                    <Image
-                            src={Avatar}
-                            height={"40"}
-                            width={"40"}
-                            alt="Avatar Image"
-                            className="rounded-full"
-                        />
-                    </li>
-                </ul>
+                            <li>
+                            <Image
+                                    src={Avatar}
+                                    height={"40"}
+                                    width={"40"}
+                                    alt="Avatar Image"
+                                    className="rounded-full"
+                                />
+                            </li>
+                        </ul>
+              
             </nav>
            </div>
         </>
