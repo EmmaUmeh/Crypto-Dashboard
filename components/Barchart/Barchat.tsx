@@ -9,7 +9,7 @@ const ICOTokenBarchart: React.FC = () => {
         return `${value}k`;
     };
 
-    const tooltipFormatter = (value: any) => value;
+    // const tooltipFormatter = (value: any) => value;
 
     return (
         <React.Fragment>
