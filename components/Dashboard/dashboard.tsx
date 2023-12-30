@@ -6,7 +6,7 @@ import ICOPieChart from "../PieChart/PieChart";
 const Dashboard: React.FC = () => {
     return (
       <>
-        <div className="">
+        <div className="relative top-32">
           <div className="lg:flex lg:justify-between justify-center gap-52">
             <div className="lg:flex lg:flex-col text-[#555764] w-50">
               <span className="mb-8 lg:ml-10">ICO TOKEN (SUPPLY & DEMAND)</span>
