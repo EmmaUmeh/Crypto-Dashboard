@@ -1,4 +1,5 @@
 import ICOTokenBarchart from "../Barchart/Barchat";
+import BuyYuchain from "../BuyYuchain/BuyYuchain";
 import ICOPieChart from "../PieChart/PieChart";
 
 
@@ -18,6 +19,10 @@ const Dashboard: React.FC = () => {
               <ICOPieChart />
             </div>
           </div>
+
+            <div className="mt-5">
+                <BuyYuchain />
+            </div>
         </div>
       </>
     );
