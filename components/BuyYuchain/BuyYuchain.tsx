@@ -8,12 +8,12 @@ import CustomButton from "../CustomButton";
 const BuyYuchain: React.FC = () => {
     return (
         <>
-            <div className="bg-white shadow-sm p-7 rounded-md w-full mb-5">
-                <div className="lg:flex lg:gap-10 lg:items-center">
+            <div className="bg-white shadow-sm p-7 rounded-md mb-5">
+                <div className="lg:flex lg:gap-10 items-center">
 
 
                     <div className="flex flex-col pb-3">
-                        <label htmlFor="yuchainToken" className="mb-2 pl-3 text-[#868686] text-sm mt-1 absolute text-black">
+                        <label htmlFor="yuchainToken" className="mb-2 pl-3 text-[#868686] text-xs mt-1 absolute">
                             Yuchain Token
                         </label>
                         <input
@@ -31,8 +31,8 @@ const BuyYuchain: React.FC = () => {
 
 
                     <div className="flex flex-col pb-3">
-                        <label htmlFor="yuchainToken" className="mb-2 pl-3 text-[#868686] text-sm mt-1 absolute text-black">
-                            Yuchain Token
+                        <label htmlFor="yuchainToken" className="mb-2 pl-3 text-[#868686] mt-1 absolute text-xs">
+                            ETH
                         </label>
                         <input
                             type="number"
@@ -45,7 +45,7 @@ const BuyYuchain: React.FC = () => {
 
 
                     <div className="relative pb-3">
-                    <label htmlFor="yuchainToken" className="mt-4 flex items-center justify-between mb-2 pl-3 text-[#868686] text-sm mt-1 absolute text-black">
+                    <label htmlFor="yuchainToken" className="mt-4 flex items-center justify-between mb-2 pl-3 text-[#868686] text-xs mt-1 absolute">
   <span> ETH</span>
   <HiOutlineSelector size={"26"} />
 </label>
@@ -64,7 +64,7 @@ const BuyYuchain: React.FC = () => {
                     {/* wallet address */}
 
                     <div className="flex flex-col pb-3">
-                        <label className="mb-2 pl-3 text-[#868686] text-sm mt-1 absolute text-black">
+                        <label className="mb-2 pl-3 text-[#868686] text-xs mt-1 absolute">
                             Wallet address
                         </label>
                         <input

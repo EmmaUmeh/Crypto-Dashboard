@@ -1,6 +1,7 @@
 import ICOTokenBarchart from "../Barchart/Barchat";
 import BuyYuchain from "../BuyYuchain/BuyYuchain";
 import ICOPieChart from "../PieChart/PieChart";
+import YuchainBalance from "../YuchainTokenBalance/YuchainBalance";
 
 
 
@@ -10,7 +11,7 @@ const Dashboard: React.FC = () => {
         <div className="relative top-32">
           <div className="lg:flex lg:justify-between justify-center gap-52">
             <div className="lg:flex lg:flex-col text-[#555764] w-50">
-              <span className="mb-8 lg:ml-10">ICO TOKEN (SUPPLY & DEMAND)</span>
+              <span className="mb-8 lg:ml-10">YUCHAIN TOKEN (SUPPLY & DEMAND)</span>
               <ICOTokenBarchart />
             </div>
   
@@ -22,6 +23,12 @@ const Dashboard: React.FC = () => {
 
             <div className="mt-5">
                 <BuyYuchain />
+            </div>
+
+
+            <div className="mt-10">
+               <span className="text-sm"> YUCHAIN TOKEN BALANCE</span>
+               <div className="mt-5"><YuchainBalance /></div>
             </div>
         </div>
       </>

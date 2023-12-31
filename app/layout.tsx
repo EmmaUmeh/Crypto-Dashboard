@@ -4,7 +4,10 @@ import './globals.css'
 import Navbar from '@/components/Navbar/Navbar'
 import SideNav from '@/components/SideNav/SideNav'
 
-const montserrat = Montserrat({ subsets: ['latin'] })
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: '500'
+})
 
 export const metadata: Metadata = {
   title: 'Yuchain Crypto Dashboard',
