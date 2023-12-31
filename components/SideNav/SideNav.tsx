@@ -33,7 +33,7 @@ const SideNav: React.FC = () => {
                        <Link href={""}>
                             <li className="mb-10 relative cursor-pointer">
                                 <div className="text-nowrap absolute pt-8 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
-                                    BUY ICO
+                                    BUY YUCHAIN
                                 </div>
 
                                     <RiStackLine  color="#FFF" size="30"/>

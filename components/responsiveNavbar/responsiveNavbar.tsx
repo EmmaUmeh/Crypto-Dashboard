@@ -32,7 +32,7 @@ const ResponsiveNavbar: React.FC = () => {
                             <RiStackLine  color="#FFF" size="30"/>
 
                             <div className="text-sm text-white">
-                                    BUY ICO
+                                    BUY YUCHAIN
                                 </div>
     
                                 </li>
