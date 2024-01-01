@@ -8,12 +8,18 @@ import { RiUserFollowLine } from "react-icons/ri";
 import Link from "next/link";
 
 const SideNav: React.FC = () => {
+
+    const href = {
+        Home: "/",
+        BuyYuc: "buyYuc"
+    }
+
    return(
     <>
        
             <aside className="lg:block hidden m-4 bg-[#24303F]  fixed py-8 px-10 rounded-md flex flex-col items-center">
                 <div>
-                    <Link href={"#"}>
+                    <Link href={`${href.Home}`}>
                         <h2 className="font-bold text-5xl text-white mb-12 cursor-pointer">Y</h2>
                     </Link>
                 </div>
@@ -30,7 +36,7 @@ const SideNav: React.FC = () => {
                        </Link>
 
                         
-                       <Link href={""}>
+                       <Link href={`/${href.BuyYuc}`}>
                             <li className="mb-10 relative cursor-pointer">
                                 <div className="text-nowrap absolute pt-8 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
                                     BUY YUCHAIN
@@ -41,7 +47,7 @@ const SideNav: React.FC = () => {
                                 </li>
                        </Link>
 
-                       <Link href={""}>
+                       <Link href={"#"}>
                             <li className="mb-10 relative cursor-pointer">
                                 <div className="text-nowrap absolute pt-8 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
                                     WALLET
