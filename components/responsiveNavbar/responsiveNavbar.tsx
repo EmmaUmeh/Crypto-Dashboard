@@ -16,6 +16,12 @@ const ResponsiveNavbar: React.FC = () => {
     setSidebarVisible(!sidebarVisible);
   };
 
+
+  const href = {
+    Home: "/",
+    BuyYuc: "buyYuc"
+}
+
   return (
     <>
       <div className="z-50">
@@ -26,7 +32,7 @@ const ResponsiveNavbar: React.FC = () => {
         >
           <div className="">
             <ul>
-              <Link href={"/"}>
+              <Link href={`${href.Home}`}>
                 <li
                   className="mb-10 flex items-center gap-3 cursor-pointer"
                   onClick={toggleSidebar}
@@ -36,7 +42,7 @@ const ResponsiveNavbar: React.FC = () => {
                 </li>
               </Link>
 
-              <Link href={""}>
+              <Link href={`/${href.BuyYuc}`}>
                 <li
                   className="mb-10 flex items-center gap-3 cursor-pointer"
                   onClick={toggleSidebar}
