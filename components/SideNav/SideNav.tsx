@@ -17,7 +17,7 @@ const SideNav: React.FC = () => {
    return(
     <>
        
-            <aside className="lg:block hidden m-4 bg-[#24303F]  fixed py-8 px-10 rounded-md flex flex-col items-center">
+            <aside className="lg:block hidden bg-[#24303F] m-2 fixed py-8 px-10 rounded-md flex flex-col items-center">
                 <div>
                     <Link href={`${href.Home}`}>
                         <h2 className="font-bold text-5xl text-white mb-12 cursor-pointer">Y</h2>
@@ -81,7 +81,7 @@ const SideNav: React.FC = () => {
 
                         
                         <li className="mb-4 relative cursor-pointer">
-                        <div className="text-nowrap absolute pt-8 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
+                        <div className="text-nowrap absolute pt-9 text-sm left-1/2 transform -translate-x-1/2 text-white p-2 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-100">
                             ACCOUNT
                         </div>
 

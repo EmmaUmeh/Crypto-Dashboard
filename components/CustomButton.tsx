@@ -11,7 +11,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({label}) => {
     return(
         <>
             <div>
-                <button className="bg-gradient-to-r from-[#FE9515] via-[#FDC401] to-[#FE9E11] text-white py-2 px-7 text-sm rounded-full font-normal">{label}</button>
+                <button className="text-nowrap bg-gradient-to-r from-[#FE9515] via-[#FDC401] to-[#FE9E11] text-white py-2 px-7 text-sm rounded-full font-normal">{label}</button>
             </div>
         </>
     )
