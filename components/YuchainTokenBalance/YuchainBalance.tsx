@@ -7,8 +7,8 @@ import CustomButton, { BorderCustomButton } from "../CustomButton";
 
 const YuchainBalance: React.FC = () => {
     return (
-        <>
-      <div className="lg:flex lg:gap-10 items-center">
+       <React.Fragment>
+          <div className="lg:flex lg:gap-10 items-center">
             <div className="bg-white shadow-sm p-7 rounded-md mb-5">
                         <div className="lg:flex lg:gap-10 items-center">
 
@@ -38,7 +38,7 @@ const YuchainBalance: React.FC = () => {
                         </div>
                     </div>
       </div>
-        </>
+       </React.Fragment>
     )
 }
 export default YuchainBalance;

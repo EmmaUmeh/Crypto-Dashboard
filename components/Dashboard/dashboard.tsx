@@ -1,5 +1,5 @@
 import ICOTokenBarchart from "../Barchart/Barchat";
-import BuyYuchain from "../BuyYuchain/BuyYuchain";
+import BuyYuchain from "../BuyYuchain";
 import ICOPieChart from "../PieChart/PieChart";
 import YuchainBalance from "../YuchainTokenBalance/YuchainBalance";
 
